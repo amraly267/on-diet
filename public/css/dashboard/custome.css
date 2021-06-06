@@ -1,0 +1,66 @@
+body {
+    font-size: 0.938rem !important;
+}
+.edit_row{
+    font-size: 20px !important;
+    color: green;
+}
+.delete_row{
+    font-size: 20px !important;
+    color: red;
+}
+.dataTables_filter {
+    display: none;
+}
+.export_menu button, .export_btn{
+    background-color: #f7f7f7 !important;
+    color:blue !important;
+}
+.export_menu button:hover, .export_btn:hover{
+    background-color: #eceaea !important;
+}
+table {
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgb(233, 229, 229);
+    border-radius: 5px;
+}
+
+table th{
+    color: #000 !important;
+    background: url('http://tablesorter.com/themes/blue/bg.gif') no-repeat 99% !important;
+
+}
+
+table, th, td {
+    border: 1px solid rgb(233, 229, 229) !important;
+}
+
+td img{
+    width: 35px;
+    height: 35px;
+}
+
+.form-side-menu{
+    border-right: 1px solid #ddd;
+    width:15%
+}
+.form-menu-text{
+    margin-left: 15%;
+}
+
+/* .accordion-tab li{
+    width: 100%;
+} */
+
+.accordion-tab li>a.active{
+    color:#009ef7 !important;
+}
+.accordion-tab {
+    background-color: azure;
+}
+
+.accordion-tab li a{
+    text-align: left !important;
+    font-size: revert !important;
+}
